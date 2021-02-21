@@ -1,0 +1,64 @@
+---
+title: "CodeBook"
+author: "Youssef LFARH"
+date: "21/02/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## How to get profit from this work: 
+1. You have to download sourse data from link below and unzip it to the working directory of R Studio.
+2. You have to exicute R script.
+
+## About source data
+As sourse data for work was used Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained using the link below:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+## About R script
+File with R code 'run_analysis.R' perform 5 following Parts:
+
+- Part 1: Downloding and unzipping the data
+
+- Part 2: Reading the data:
+    - 2.1 Training datasets\n
+    - 2.2 Testing datasets\n
+    - 2.3 Features data\n
+    - 2.4 Activity labels\n
+
+    
+- Part 3: Creating the One data:
+    - 3.1 Labeling the columns:
+        - X columns
+        - y columns
+        - Subject set
+        - Activity labels
+    - 3.2 Merging all in one:
+  
+- Part 4: Extracting the wanted data (Mean & std data):
+
+- Part 5: Creating the seconde tidy data:
+    - 5.1 Grouping and avereging
+    - 5.2 Exporting the Final TidySet
+
+## About variables:   
+- `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
+- `DATA`merge the previous datasets to further analysis.
+- `features` contains the correct names for the `DATA` dataset, which are applied to the column names stored in.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+

@@ -1,0 +1,21 @@
+---
+title: "README"
+author: "Youssef LFARH"
+date: "21/02/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Getting and Cleaning Data Course Project
+
+This repository hosts the R code and documentation files for the Data Science's track course "Getting and Cleaning data", available in coursera.
+
+## Files
+
+`CodeBook.md` explains how to use the code below,the variables and the data used, and any transformations or work that was performed to clean up the data.
+
+`run_analysis.R` contains the code to perform the analyses described in the 5 parts. The whole project can be launched in RStudio by just importing the file.
+
